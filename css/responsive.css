@@ -57,6 +57,13 @@
 
 @media (min-width: 992px) and (max-width: 1150px) {
     main {
-        width: 900px;
+        width: auto;
+        height: auto;
+        position: initial;
+        transform: translate(0px);
+        margin: 10px;
+    }
+    .main-item > h2 {
+        margin-bottom: 40px;
     }
 }
